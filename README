@@ -1,0 +1,93 @@
+# 🍔 Food Order Preference Clustering
+
+**Unsupervised Machine Learning Project**  
+*Customer Segmentation in Food Tech Industry*
+
+---
+
+## 📋 Project Description
+
+This project analyzes customer food ordering behavior and segments them into meaningful **Food Choice Groups** using **K-Means Clustering** and **PCA**. It helps food delivery platforms like Zomato and Swiggy to understand their customers better and offer personalized recommendations.
+
+---
+
+## 🎯 Objectives
+
+- Perform customer segmentation based on menu selection
+- Apply One-Hot Encoding and Normalization
+- Reduce dimensions using PCA
+- Implement K-Means Clustering
+- Evaluate model using Silhouette Score
+- Provide actionable business insights
+
+---
+
+## 🛠 Technologies & Tools
+
+- **Language**: Python
+- **Core Libraries**:
+  - scikit-learn (K-Means, PCA, Silhouette Score)
+  - pandas & numpy
+  - matplotlib, seaborn, plotly
+- **Environment**: Google Colab
+
+---
+
+## 📊 Key Results
+
+- **Best Number of Clusters**: 4
+- **Silhouette Score**: `0.XX` (Good Quality Clustering)
+- **Food Choice Groups Identified**:
+  1. North Indian Lovers
+  2. Healthy Eaters
+  3. Fast Food & Chinese Lovers
+  4. Premium Variety Seekers
+
+---
+
+## 📁 Project Files
+
+- `Food_Order_Preference_Clustering.ipynb` → Main Notebook
+- `Scree_Plot_PCA.png`
+- `Elbow_Method_Plot.png`
+- `PCA_Scatter_Plot.png`
+- `Cluster_Distribution_Chart.png`
+
+---
+
+## 🚀 How to Run the Project
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com)
+2. Run all cells step by step
+3. Upload your own dataset (optional)
+
+---
+
+## 📈 Visualizations
+
+- Scree Plot (PCA Explained Variance)
+- Elbow Method for Optimal K
+- 2D PCA Cluster Visualization
+- Cluster-wise Customer Distribution
+- Silhouette Score Analysis
+
+---
+
+## 💡 Business Insights
+
+This segmentation enables:
+- Targeted marketing campaigns
+- Personalized menu recommendations
+- Improved customer retention
+- Better sales strategies
+
+---
+
+##  Future Enhancements
+
+- Real-time clustering system
+- Streamlit / Dash based Web Dashboard
+- Integration with Recommendation Engine
+- Deep Learning models
+
+
